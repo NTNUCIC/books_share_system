@@ -25,7 +25,8 @@ SECRET_KEY = 'fn#mdo&(u1tsycmug9mqi3=(ag2)$rhze#+ga@&0ta8r80ydrr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['books-share-system.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1',
+                 'books-share-system.herokuapp.com']
 
 
 # Application definition
