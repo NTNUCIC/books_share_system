@@ -25,7 +25,7 @@ SECRET_KEY = 'fn#mdo&(u1tsycmug9mqi3=(ag2)$rhze#+ga@&0ta8r80ydrr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://books-share-system.herokuapp.com/']
 
 
 # Application definition
@@ -119,6 +119,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = 'assets'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static")
-]
